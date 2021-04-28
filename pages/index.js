@@ -10,8 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="md:flex h-screen ">
-        <div className=" relative  lg:w-1/2 hidden md:block">
+      <main className="lg:flex h-screen ">
+        <div className=" relative  lg:w-1/2 hidden lg:block">
           <Image
             src="/images/SideImage.jpg"
             alt="Side Image"
@@ -20,7 +20,7 @@ export default function Home() {
             objectPosition="center center"
           />
         </div>
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 h-full">
           <Form />
         </div>
       </main>
